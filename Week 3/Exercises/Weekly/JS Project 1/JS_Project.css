@@ -1,0 +1,40 @@
+body {
+	margin-left: 8%;
+	margin-top: 5%;
+}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	margin-bottom: 3%;
+}
+
+input {
+	display: inline-block;
+	margin-left: 1%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	width: 68px;
+	height: 32px;
+}
+
+p {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 0;
+}
+
+#executeFib {
+	display: inline-block;
+	margin-left: 1% !important;
+	height: 33px !important;
+}
+
+.inner-text {
+	display: flex;
+}
+
+#secondNumber {
+	margin-left: 1%;
+}
