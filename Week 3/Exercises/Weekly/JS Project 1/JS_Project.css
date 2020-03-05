@@ -35,6 +35,11 @@ p {
 	display: flex;
 }
 
+#fiboLoader,
+#secondNumber {
+	display: none;
+}
+
 #secondNumber {
 	margin-left: 1%;
 }
