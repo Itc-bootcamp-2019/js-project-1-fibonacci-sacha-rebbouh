@@ -6,17 +6,16 @@
 		<title>JS Project 1</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="JS_Project.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 	</head>
 	<body>
-		<div>
+		<div id="main-div">
 			<h1 class="title">Fibonacci Calculator</h1>
-			<div class="inner-text">
-				<p>The fibonacci of </p><input class="input" id="firstNumber" value="#"></input>
-				<button class="btn btn-primary" id="executeFib"><span class="insideButton">is</span></button>
-				<p id="secondNumber">
-				<!-- <div id="loader"></div></p> -->
-				<div id="fiboLoader" class="spinner-border"></div>
-			</div>
+			<p id="insideText">The Fibonacci Of </p><input class="input" id="firstNumber" value="#"></input>
+			<button class="btn btn-primary" id="executeFib"><span class="insideButton">is</span></button>
+			<p id="secondNumber"></p>
+			<div id="fiboLoader" class="spinner-border"></div>
+			<div id="redBox"></div>
 		</div>
 		<script type="text/Javascript" src="JS_Project.js"></script>	</body>
 </html>

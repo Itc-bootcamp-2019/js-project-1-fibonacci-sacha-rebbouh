@@ -30,9 +30,12 @@ executeFib.addEventListener("click", () => {
 	let a = firstNumber.value;
 	let secondNumber = document.getElementById("secondNumber");
 	let fiboLoader = document.getElementById("fiboLoader");
+	let redBox = document.getElementById("redBox");
 
-	if (a >= 50) {
-		secondNumber.innerText = "Error, this number is too large.";
+	if (a > 50) {
+		redBox.classList.add("light-pink");
+		redBox.innerText = "Can't be larger than 50";
+		// document.getElementById("input").classList.add("color-fifty")
 	} else {
 		fiboLoader.style.display = "block";
 		// let b = fib(a);
@@ -44,12 +47,10 @@ executeFib.addEventListener("click", () => {
 				fiboLoader.style.display = "none";
 				if (isValidJSON(data)) {
 					let isJSON = JSON.parse(data);
-					secondNumber.style.color = "black";
 					secondNumber.innerText = isJSON.result;
 				} else {
 					let servError = "Server Error: ";
 					let globalMessage = servError + data;
-					secondNumber.style.color = "red";
 					secondNumber.innerText = globalMessage;
 				}
 				secondNumber.style.display = "block";
