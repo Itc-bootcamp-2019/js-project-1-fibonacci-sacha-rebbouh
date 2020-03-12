@@ -5,7 +5,7 @@
 
 #main-div {
 	width: 100vw;
-	height: 100vh;
+	height: 54vh;
 	display: flex;
 }
 
@@ -42,7 +42,7 @@ input {
 	left: 23%;
 	top: 25%;
 	background: #ffffff;
-	border: 1px solid #d9534f;
+	border: 1px solid black;
 	box-sizing: border-box;
 	border-radius: 4px;
 	font-family: "Open Sans";
@@ -85,13 +85,16 @@ p {
 
 #fiboLoader {
 	position: absolute;
-	width: 40px;
-	height: 40px;
-	left: 40%;
-	top: 29.5%;
+	width: 35px;
+	height: 35px;
+	left: 32.5%;
+	top: 25.5%;
+	background-color: white;
 }
 
-.color-fifty {
+.over-fifty {
+	border: 1px solid #d9534f;
+	color: #d9534f;
 }
 
 #fiboLoader,
@@ -100,5 +103,55 @@ p {
 }
 
 #secondNumber {
+	top: 26.5%;
+	left: 32%;
+	position: absolute;
 	margin-left: 1%;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	display: flex;
+	align-items: flex-end;
+	text-decoration-line: underline;
+	color: #373a3c;
 }
+
+.result-title {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-size: 40px;
+	width: 182px;
+	height: 72px;
+	font-family: "Open Sans";
+	font-size: 54px;
+	line-height: 72px;
+}
+
+#resultList {
+	position: absolute;
+	width: 1088px;
+	height: 24px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	line-height: 24px;
+	color: #373a3c;
+	line-height: 50px;
+	left: 10%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+hr {
+	border: 1px solid #000000;
+	width: 85%;
+	margin-left: 0;
+}
+/* 
+.block {
+	display: block;
+} */
