@@ -146,6 +146,31 @@ p {
 	font-weight: bold;
 }
 
+.whole-checkbox {
+	position: absolute;
+	display: flex;
+	flex-direction: column-reverse;
+	top: 30%;
+	left: 9%;
+	width: 335px;
+	height: 40px;
+}
+
+#checkbox {
+	width: 10px;
+	top: 16%;
+	left: 12%;
+}
+
+.error-message {
+	color: #d9534f;
+}
+
+.checkbox-text {
+	position: absolute;
+	left: 12%;
+}
+
 hr {
 	border: 1px solid #000000;
 	width: 85%;
